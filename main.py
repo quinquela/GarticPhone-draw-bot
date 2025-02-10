@@ -11,7 +11,7 @@ pyautogui.MINIMUM_DURATION = 0.00001
 
 
 imagen_path = input("image path:")
-umbral_input = input("Threshold for black and white conversion")
+umbral_input = input("Threshold for black and white conversion:")
 umbral = int(umbral_input)
 def encontrar_pixels_negros(ruta_imagen):
     try:
